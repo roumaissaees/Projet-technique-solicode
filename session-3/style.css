@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --color-cream: #F7F0E7;
+    --color-cream-light: #FBF7F1;
+    --color-cream-dark: #EDE2D5;
+    --color-green: #19372F;
+    --color-green-light: #25483E;
+    --color-green-dark: #112820;
+    --color-rose: #C56F73;
+    --color-rose-light: #E9A4A5;
+    --color-rose-dark: #A94F57;
+    --color-text: #263A34;
+    --color-text-light: #626963;
+    --color-white: #FFFFFF;
+    --color-border: #E5D8CB;
+    --color-shadow: rgba(25, 55, 47, 0.10);
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    background-color: var(--color-cream-light);   
+
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 80px;
+    position: relative;
+   
+}
+
+.container-header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.container-header ul li a {
+    text-decoration: none;
+    color: var(--color-text-light);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container-header a {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--color-rose);
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+}
+
+.logo span {
+    color: var(--color-green-dark);
+}
+
+h3 {
+    color: #D99AA6;
+    font-style: normal;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: #1b3022;
+    margin-top: 15px;
+}
+
+#title {
+    color: #D99AA6;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+#tire {
+    color: #D99AA6;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.para1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #1b3022;
+    margin-top: 15px;
+}
+
+.para2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #1b3022;
+    margin-top: 20px;
+}
+
+.but {
+    color: var(--color-white);
+    background-color: var(--color-green-dark);
+    padding: 14px 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+.but2{
+    margin-top: 30px;
+    width: 250px;
+}
+
+#but1 {
+    color: #1b3022;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 250px;
+}
+
+.pink-bg {
+    width: 390px;
+    height: 490px;
+    background-color: #D99AA6;
+    border-radius: 50% 100px 0 0;
+    position: absolute;
+    bottom: -20px;
+    right: 60px;
+}
+
+.container-hero {
+    width: 90%;
+    margin: 30px auto;
+    height: 100vh;
+    max-width: 1300px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    width: 50%;
+    margin-top: 30px;
+}
+.hero_image{
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.hero_image img{
+    height: 690px;
+    position: absolute;
+    bottom: -20px;
+    right: 70px;
+}
+.green-bg{
+    width: 90px;
+    height: 270px;
+    background-color: var(--color-green-dark);
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    border-radius: 10px;
+}
+.ayman{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    bottom: 200px;
+    right: 75px;
+    border-radius: 10px;
+    top: 400px;
+
+}
+.ph11 {
+    width: 50px;
+    height: 50px;
+}
+.ligne{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.ligne i{
+    font-size: 35px;
+    color: var(--color-rose-light);
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+.cont2{
+    background-color: var(--color-cream-light);
+}
+.right-center{
+   border-radius: 30px;
+   padding: 30px;
+   border: 1px solid var(--color-rose-light);
+   width: 50%;
+   gap: 30px;
+}
+.big-tit{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #1b3022;
+    margin-top: 20px;
+}
+.para3{
+    margin-top: 15px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #1b3022;
+    margin-top: 20px;
+}
+.tit11{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+}
+.pag3{
+    font-size: 15px;
+}
+.bring{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.rouma{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 90%;
+ margin: 0 auto;
+ max-width: 1300px;
+ height: 100vh;
+ max-height: 500px;
+}
+
+.center{
+    width: 50%;
+}
+.bolat{
+    background-color: var(--color-green-dark);
+    max-height: 700px;
+}
+.gorg{
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+}
+.gorg h4{
+    color: #D99AA6;
+    font-style: normal;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+.gorg h3{
+    display: inline-block;
+    color: var(--color-cream-light);
+    font-size: 20px;
+}
+hr{
+    display: inline-block;
+    width: 80%;
+    margin-left: 5px;
+}
+.soolking{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.soolking div{
+    border:1px solid var(--color-cream);
+    width: 30%;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: var(--color-cream-light);
+    font-weight: 700;
+    transition: transform .3s;
+}
+.soolking div:hover{
+    transform: translateY(-3px);
+    background-color: var(--color-green);
+}
+.soolking div i{
+    font-size: 50px;
+}
+.center h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.center h4{
+    font-size: 25px;
+    font-family: 'open sans', sans-serif;
+}
+.name{
+    font-style: oblique;
+    color: #D99AA6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Contact h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.Contact{
+    border: var(--color-rose-light) 1px solid;
+    padding: 45px;
+        width: 90%;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: var(--color-shadow);
+
+}
+.Contact i{
+    color: var(--color-rose-light);
+    font-size: 40px;
+    margin: 20px 20px 0 0;
+}
+.Contact p{
+    margin-top: 15px;
+    font-size: 25px;
+}
